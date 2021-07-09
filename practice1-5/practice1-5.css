@@ -27,7 +27,10 @@ header h1{
 
 /* メイン */
 .boxes{
-  margin: 50px 0;
+  width: 800px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .box{
@@ -36,11 +39,6 @@ header h1{
 }
 
 /* ボックス１段目 */
-.box-group1{
-  display: flex;
-  justify-content: center;
-}
-
 .box1{
   background-color: #e6ffe9;
 }
@@ -58,11 +56,6 @@ header h1{
 }
 
 /* ボックス２段目 */
-.box-group2{
-  display: flex;
-  justify-content: center;
-}
-
 .box5{
   background-color: #f3ffd8;
 }
@@ -80,11 +73,6 @@ header h1{
 }
 
 /* ボックス３段目 */
-.box-group3{
-  display: flex;
-  justify-content: center;
-}
-
 .box9{
   background-color: #d9e5ff;
 }
