@@ -14,6 +14,10 @@ header{
   border-bottom: 1px solid black;
 }
 
+.heading a{
+  color: blue;
+}
+
 .nav{
   display: flex;
   justify-content: center;
@@ -21,11 +25,16 @@ header{
 }
 
 .nav-item{
+  color: blue;
   display: block;
   padding: 15px 20px;
 }
 
 /* メイン */
+.boxes{
+  margin: 50px 0;
+}
+
 .box{
   width: 200px;
   height: 200px;
