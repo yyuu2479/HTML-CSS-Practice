@@ -1,0 +1,110 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* ヘッダー */
+header{
+  text-align: center;
+}
+
+.heading{
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
+
+.nav-item{
+  display: block;
+  padding: 15px 20px;
+}
+
+/* メイン */
+.box{
+  width: 200px;
+  height: 200px;
+}
+
+/* ボックス１段目 */
+.box-group1{
+  display: flex;
+  justify-content: center;
+}
+
+.box1{
+  background-color: #e6ffe9;
+}
+
+.box2{
+  background-color: #cbffd3;
+}
+
+.box3{
+  background-color: #aeffbd;
+}
+
+.box4{
+  background-color: #93ffab;
+}
+
+/* ボックス２段目 */
+.box-group2{
+  display: flex;
+  justify-content: center;
+}
+
+.box5{
+  background-color: #f3ffd8;
+}
+
+.box6{
+  background-color: #edffbe;
+}
+
+.box7{
+  background-color: #e9ffa5;
+}
+
+.box8{
+  background-color: #e4ff8d;
+}
+
+/* ボックス３段目 */
+.box-group3{
+  display: flex;
+  justify-content: center;
+}
+
+.box9{
+  background-color: #d9e5ff;
+}
+
+.box10{
+  background-color: #bad3ff;
+}
+
+.box11{
+  background-color: #a4c6ff;
+}
+
+.box12{
+  background-color: #8eb8ff;
+}
+
+/* フッター */
+footer{
+  text-align: center;
+  height: 120px;
+  color: #fff;
+  background-color: #848282;
+}
+
+.footer-text{
+  line-height: 120px;
+}
