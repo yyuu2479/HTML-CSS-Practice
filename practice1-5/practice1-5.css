@@ -9,25 +9,20 @@ header{
   text-align: center;
 }
 
-.heading{
+header h1{
   padding: 20px 0;
   border-bottom: 1px solid black;
 }
 
-.heading a{
-  color: blue;
-}
-
-.nav{
-  display: flex;
-  justify-content: center;
+.nav-list{
+  padding: 15px 0;
   border-bottom: 1px solid black;
 }
 
 .nav-item{
-  color: blue;
-  display: block;
-  padding: 15px 20px;
+  display: inline-block;
+  list-style: none;
+  margin: 0px 20px;
 }
 
 /* メイン */
