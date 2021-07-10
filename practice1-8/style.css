@@ -26,8 +26,8 @@ main{
 
 /* ボックス */
 .boxes{
-display: flex;
-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .box{
