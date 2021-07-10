@@ -4,14 +4,14 @@
   box-sizing: border-box;
 }
 
-
-.list{
+/* リスト */
+main{
   width: 960px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 .list-item{
-  margin: 50px 0;
+  margin-bottom: 50px;
 }
 
 .list-text{
@@ -19,6 +19,55 @@
   list-style: none;
 }
 
-.list-color:nth-child(odd){
+.list-text:nth-child(odd){
   background-color: rgb(228, 228, 228);
+}
+
+
+/* ボックス */
+.boxes{
+ font-size: 0;
+}
+
+.box{
+  display: inline-block;
+  height: 200px;
+  width: 30%;
+  margin-bottom: 40px;
+  background-color: yellow;
+}
+
+.box:nth-child(1){
+  margin-right: 5%;
+  background-color: orange;
+}
+
+.box:nth-child(2){
+  margin-right: 5%;
+}
+
+
+.box:nth-child(4){
+  margin-right: 5%;
+}
+
+.box:nth-child(5){
+  margin-right: 5%;
+  background-color: orange;
+}
+
+
+.box:nth-child(7){
+  margin-right: 5%;
+  margin-bottom: 0px;
+}
+
+.box:nth-child(8){
+  margin-right: 5%;
+  margin-bottom: 0px;
+}
+
+.box:nth-child(9){
+  margin-bottom: 0px;
+  background-color: orange;
 }
