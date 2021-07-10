@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  color: gray;
 }
 
 
@@ -14,4 +15,14 @@ header{
 
 .heading{
   padding: 20px 0 0 20px;
-  color: gray;
+}
+
+.content{
+  width: 840px;
+  margin: 50px auto;
+}
+
+.content-item{
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
