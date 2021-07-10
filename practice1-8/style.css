@@ -1,0 +1,24 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+.list{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.list-item{
+  margin: 50px 0;
+}
+
+.list-text{
+  padding: 20px;
+  list-style: none;
+}
+
+.list-color:nth-child(odd){
+  background-color: rgb(228, 228, 228);
+}
